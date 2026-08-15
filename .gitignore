@@ -1,0 +1,54 @@
+# ── Python ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# ── Environment & Secrets (NEVER commit these) ──────
+.env
+.env.local
+.env.*.local
+*.env
+
+# ── Database & User Data ────────────────────────────
+data/jobapply.db
+data/*.db
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Uploaded Files ──────────────────────────────────
+uploads/
+
+# ── Node / Frontend ─────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+.vite/
+
+# ── IDE / OS ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ─────────────────────────────────────────────
+*.log
+npm-debug.log*
+
+# ── Project Planning ─────────────────────────────────
+PROJECT_PLAN.md
+project_plan.md
+deployment_guide.md
+DEPLOYMENT.md

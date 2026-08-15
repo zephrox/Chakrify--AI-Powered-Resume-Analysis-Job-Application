@@ -1,0 +1,15 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+aiosqlite>=0.20.0
+pypdf>=4.3.1
+python-docx>=1.1.2
+google-genai>=1.5.0
+python-dotenv>=1.0.1
+pydantic>=2.8.0
+aiofiles>=24.1.0
+httpx>=0.28.1
+slowapi>=0.1.10
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+bcrypt==4.0.1
